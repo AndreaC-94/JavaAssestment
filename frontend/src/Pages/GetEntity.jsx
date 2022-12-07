@@ -57,7 +57,7 @@ const GetEntity = () => {
                             display: 'flex', flexWrap: 'wrap', '& > :not(style)': {
                                 m: 1,
                                 width: 185,
-                                height: 115,
+                                height: 185,
                             },
                         }}
                             key={person.id + "box"}>

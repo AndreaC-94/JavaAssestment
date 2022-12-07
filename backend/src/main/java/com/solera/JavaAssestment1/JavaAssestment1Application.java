@@ -20,8 +20,8 @@ public class JavaAssestment1Application implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		for(int i =1; i<6; i++){
-			myClassService.createEntity(new MyClass("Name"+i, "Surname"+i, "12345678"+i, "email@email.com"+i));
+		for(int i =1; i<2; i++){
+			//myClassService.createEntity(new MyClass("Name"+i, "Surname"+i, "12345678"+i, "email@email.com"+i));
 		}
 	}
 }
